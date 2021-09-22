@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8550060287012036415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7897303526085723961}
+  - component: {fileID: 2538467308536523446}
+  m_Layer: 0
+  m_Name: BattleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7897303526085723961
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8550060287012036415}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2538467308536523446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8550060287012036415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad646745f11f74dab905e16f3e2da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPosListScriptable: {fileID: 11400000, guid: 7d8e08d696e8eca4d816f43a50d76f2a, type: 2}
+  zombieList:
+  - {fileID: 1063500868937916, guid: 35861510587b7489780fe86970823679, type: 3}
+  - {fileID: 1063500868937916, guid: 08c13c6daef039f44a33c5ee3892001a, type: 3}
+  savedGameScore: {fileID: 11400000, guid: 68d01692898384442b5a5f410956dc1c, type: 2}
+  amountToSpawnByWave: 10
+  zombieKilledInTotal: 0
+  timeBetweenSpawns: 4
+  waveInfo: {fileID: 0}
+  scoreText: {fileID: 0}
